@@ -2,9 +2,6 @@
 
 Team Guardian (SFU Unmanned Aerial Veicle Team) research project in Computer Vision.
 
-### Inspirations
-
-
 ### Getting Started
 1. Clone the project 
 ```
