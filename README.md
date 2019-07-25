@@ -28,7 +28,7 @@ python demo.py
 ### Demo
 ![](https://media.giphy.com/media/MB0S2CQ7dfTXFIbpTy/giphy.gif)
 
-![](https://media.giphy.com/media/ftH9YHbLr5gmL44A6n/giphy.gif)
+![](https://media.giphy.com/media/dWNUY5N1c617vimo2c/giphy.gif)
 
 ### Author
 
