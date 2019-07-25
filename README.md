@@ -2,6 +2,9 @@
 
 Team Guardian (SFU Unmanned Aerial Veicle Team) research project in Computer Vision.
 
+### Inspirations
+
+
 ### Getting Started
 1. Clone the project 
 ```
@@ -25,7 +28,7 @@ python demo.py -v PATH_TO_VIDEO
 python demo.py
 ```
 
-### Demo
+### Project Demo
 ![](https://media.giphy.com/media/MB0S2CQ7dfTXFIbpTy/giphy.gif)
 
 ![](https://media.giphy.com/media/WoEyLRToBH8IY5WnZ7/giphy.gif)
