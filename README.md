@@ -1,6 +1,6 @@
 ## Intuitive-Gesture-Drone-Control
 
-Team Guardian (SFU Unmanned Aerial Veicle Team)'s research project in Computer Vision.
+Team Guardian (SFU Unmanned Aerial Veicle Team) research project in Computer Vision.
 
 ### Getting Started
 1. Clone the project 
