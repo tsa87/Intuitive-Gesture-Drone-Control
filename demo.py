@@ -3,8 +3,6 @@ from helper import detector_utils as utils
 from helper import CentroidTracker
 import numpy as np
 import argparse
-import datetime
-import time
 import cv2
 
 ap = argparse.ArgumentParser()
@@ -22,10 +20,6 @@ if args.video_path is None:
     cap = cv2.VideoCapture(0)
 else:
     cap = cv2.VideoCapture(args.video_path)
-
-# initalize starting time for fps calculations
-start_time = datetime.datetime.now()
-num_frames = 0
 
 while (cap.isOpened()):
     grabbed, frame = cap.read()
