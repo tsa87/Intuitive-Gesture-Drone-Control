@@ -15,7 +15,12 @@ pip install opencv-contrib-python
 pip install scipy
 pip install tensorflow
 ```
-3. Run the demo
+3. Localize the configuration path
+```
+# in helper/config/hand_config.py
+# change the BASE_PATH var to the absolute path to the project folder
+```
+4. Run the demo
 ```
 # on video file
 python demo.py -v PATH_TO_VIDEO
