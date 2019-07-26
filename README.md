@@ -18,7 +18,7 @@ pip install tensorflow
 3. Localize the configuration path
 ```
 # in helper/config/hand_config.py
-# change the BASE_PATH var to the absolute path to the project folder
+# change the BASE_PATH var to the absolute path to your project folder.
 ```
 4. Run the demo
 ```
