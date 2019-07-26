@@ -65,8 +65,8 @@ def track_objects(frame, rects, tracker):
     for (objectID, hand_instance) in hands.items():
         text = "ID {}".format(objectID)
         centroid = hand_instance.cordinate
-        cv2.putText(frame, text, (centroid[0] - 10, centroid[1] - 10),cv2.FONT_HERSHEY_DUPLEX , 2, (0, 0, 0), 2)
-        cv2.circle(frame, (centroid[0], centroid[1]), 10, (0, 0, 0), -1)
+        cv2.putText(frame, text, (centroid[0] - 10, centroid[1] - 10),cv2.FONT_HERSHEY_DUPLEX , 1, (255, 255, 255), 1)
+        cv2.circle(frame, (centroid[0], centroid[1]), 5, (255, 255, 255), -1)
 """
 rects (list of tuple): bounding box cordinate (start_x, start_y, end_x, end_y)
 """
@@ -74,7 +74,7 @@ def draw_bounding_boxes(img, rects):
     for rect in rects:
         p1 = (int(rect[0]), int(rect[1]))
         p2 = (int(rect[2]), int(rect[3]))
-        cv2.rectangle(img, p1, p2, (0, 0, 0), 5)
+        cv2.rectangle(img, p1, p2, (255, 255, 255), 3)
 
 """calculate the movement of each object
 left_right_tracker (CentroidTracker): maintains a record of detected object(s).
@@ -104,11 +104,11 @@ def display_movement(frame, tracker):
                 direction = "Direction: {}-{}".format(x, y)
                 cv2.putText(frame,
                     direction,
-                    (len(frame[1])-800,50 + i*70), #origin
+                    (400,50 + i*50), #origin
                     cv2.FONT_HERSHEY_DUPLEX,
-                    2, #scale
-                    (0,255,0),
-                    2,
+                    1, #scale
+                    (255,255,255),
+                    1,
                     )
 
             dx_dy = "dX: {} dY: {}".format(dx, dy)
@@ -116,9 +116,9 @@ def display_movement(frame, tracker):
             # object ID:
             cv2.putText(frame,
                 "#{} {}".format(objectID,dx_dy),
-                (10,50 + i*70), #origin
+                (10,50 + i*50), #origin
                 cv2.FONT_HERSHEY_DUPLEX,
-                2, #scale
-                (0,255,0),
-                2,
+                1, #scale
+                (255,255,255),
+                1,
                 )
