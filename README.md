@@ -3,7 +3,7 @@
 Team Guardian (SFU Unmanned Aerial Veicle Team) research project in Computer Vision.
 
 ### Motivation
-- Hand movement is one of the most intuitve way for us to move an object. \
+- Hand movement is one of the most intuitve way for us to move an object. 
 - We decided to make it possible to control a drone with your hand, without requiring the user to wear any sensors. 
 
 ### Getting Started
